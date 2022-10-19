@@ -332,14 +332,14 @@ h1 {
 .cardk__img {
   width: 100%;
   height: 150px;
-  background-image: url(./KustomsSports.jpg);
+  background-image: url(/KustomsSports.jpg);
   background-size: cover;
 }
 
 .cardp__img {
   width: 100%;
   height: 150px;
-  background-image: url(./pokemon.jpg);
+  background-image: url(/pokemon.jpg);
   background-size: cover;
 }
 
