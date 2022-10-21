@@ -505,9 +505,8 @@ h1 {
 @media (max-width: 720px){
  
   .main img{
-    width: 340px;
-    height: 450px;
-    margin-bottom: 10px;
+    width: 310px;
+    height: 420px;
   }
 
   .navbar{
