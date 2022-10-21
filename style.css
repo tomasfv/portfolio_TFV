@@ -503,9 +503,11 @@ h1 {
 }
 
 @media (max-width: 720px){
+ 
   .main img{
     width: 340px;
     height: 450px;
+    margin-bottom: 10px;
   }
 
   .navbar{
@@ -524,6 +526,10 @@ h1 {
   }
 
   .footer-content h2{
-    font-size: 1.7em;
+    font-size: 1.5em;
+  }
+
+  .footer-content h5{
+    font-size: 1em;
   }
 }
