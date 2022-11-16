@@ -349,6 +349,7 @@ h1 {
 
 .card {
   width: 300px;
+  border: solid aqua 1px;
   background-color: #2b3058;
   margin: 1em;
 }
@@ -408,6 +409,30 @@ h1 {
   align-items: center;
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+.container-linkedin {
+  margin: 0 auto;
+  /* margin-left: 26%; */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.linkedin-clips{
+  width: 400px;
+  height: 250px;
+  transition-duration: 300ms;
+  border: solid aqua 1px;
+  margin: 5px;
+  transition-timing-function: ease-in-out;
+}
+
+.linkedin-clips:hover{
+  transform: scale(1.05);
 }
 
 
