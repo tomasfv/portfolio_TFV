@@ -510,6 +510,44 @@ h1 {
   color: #191c32;
 }
 
+.container-skills{
+  background-color: #191c32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.skills-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px
+}
+
+.skills{
+  
+  width: 100px;
+  height: 100px;
+  border: solid aqua 2px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  transition-property: transform border-radius; 
+  transition: 750ms ease-in-out;
+  
+
+}
+
+.skills:hover{
+  transform: rotate(360deg);
+  border-radius: 50%;
+  
+  
+  
+}
+
 
 @media (max-width: 780px){
   .main{
