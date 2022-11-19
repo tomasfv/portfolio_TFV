@@ -570,7 +570,7 @@ h1 {
   }
 
   .skills-cards{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   }
 }
@@ -588,9 +588,9 @@ h1 {
     
   }
   .menu a{
-    /* display: none; */
-    padding: 10px;
-    font-size: 11px;
+    display: none;
+    /* padding: 10px;
+    font-size: 11px; */
   }
 
   .about img{
