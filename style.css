@@ -38,6 +38,7 @@ body {
 .menu {
   display: flex;
   width: 50%;
+  margin-right: 10px;
   justify-content: space-around;
 }
 .menu  li {
