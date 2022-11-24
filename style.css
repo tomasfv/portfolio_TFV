@@ -399,6 +399,7 @@ h1 {
 
 .contact-section {
   padding: 3em;
+
 }
 
 .container-contact {
@@ -415,12 +416,21 @@ h1 {
 .container-linkedin {
   margin: 0 auto;
   /* margin-left: 26%; */
-  display:flex;
+  /* display:flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+.linkedin{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .linkedin-clips{
