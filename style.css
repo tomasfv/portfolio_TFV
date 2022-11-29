@@ -584,6 +584,12 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 
   }
+
+  .linkedin{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
 
 @media (max-width: 720px){
