@@ -406,7 +406,7 @@ h1 {
 
 .contact-section {
   padding: 3em;
-
+  
 }
 
 .container-contact {
@@ -627,5 +627,13 @@ h1 {
 
   .footer-content h5{
     font-size: 1em;
+  }
+
+  .divider{
+    margin-bottom: 100px;
+  }
+
+  .contact-heading{
+    margin-top: 200px;
   }
 }
