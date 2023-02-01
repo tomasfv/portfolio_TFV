@@ -344,10 +344,20 @@ h1 {
   height: 80vh;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.container-first{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-second{
+  display: flex;
+  flex-direction: row;
+}
 .card {
   width: 300px;
   border: solid aqua 1px;
@@ -356,6 +366,12 @@ h1 {
   margin: 1em;
 }
 
+.cardtvgs__img{
+  width: 100%;
+  height: 150px;
+  background-image: url(/TVGS-2.jpg);
+  background-size: cover;
+}
 .cardk__img {
   width: 100%;
   height: 150px;
